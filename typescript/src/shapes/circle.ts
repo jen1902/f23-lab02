@@ -1,10 +1,15 @@
-function circle(radius: number): Shape {
+import {Shape} from './shape'
+
+function newCircle(radius: number): Shape {
     return {
-        radius,
         computeArea: function (): number {
             return Math.PI * radius * radius
+        },
+
+        getName: function (): string {
+            return "Circle"
         }
     }
 }
 
-export { circle }
+export { newCircle }
