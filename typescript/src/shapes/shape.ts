@@ -1,3 +1,4 @@
-interface Shape {
-    
+export interface Shape {
+    computeArea(): number; 
+    getName(): string;
 }
