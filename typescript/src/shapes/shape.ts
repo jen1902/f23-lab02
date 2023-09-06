@@ -1,4 +1,6 @@
-export interface Shape {
+interface Shape {
     computeArea(): number; 
     getName(): string;
 }
+
+export { Shape }
