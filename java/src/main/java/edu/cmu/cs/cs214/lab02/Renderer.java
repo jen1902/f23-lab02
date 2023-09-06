@@ -4,7 +4,7 @@ import edu.cmu.cs.cs214.lab02.shapes.*;
 
 public class Renderer {
     // public Rectangle rectangle;
-    public Shape shape;
+    private Shape shape;
     
     // Renderer(Rectangle rectangle) {
     //     this.rectangle = rectangle;
